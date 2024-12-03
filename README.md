@@ -1,59 +1,66 @@
-# Password-Generator
+🔐 **Advanced Password Generator Tool**
 
-Password Generating Tool 🔐
-A simple yet powerful Bash script that utilizes the crunch tool to generate customizable password lists. Ideal for penetration testers, ethical hackers, and security enthusiasts who need secure and flexible password generation.
+This Bash script allows users to generate customizable password lists using the `crunch` utility, making it a valuable resource for cybersecurity professionals and penetration testers. The script features a user-friendly interface with colorful prompts and detailed information about the estimated output size, ensuring optimal performance and ease of use.
 
-Features
-✅ User-friendly interface with color-coded prompts and ASCII art.
-✅ Set minimum and maximum length for generated passwords.
-✅ Customize your password character set (e.g., abc123!@#).
-✅ Displays estimated file size and total number of passwords before generation.
-✅ Saves output to a file for easy access.
-✅ Lightweight and efficient for generating large password lists.
+---
+ 🚀 **Key Features:**
 
-Prerequisites
+- **Custom Length Range:** Specify minimum and maximum password lengths.
+- **Character Set Selection:** Choose characters, including symbols, numbers, and special characters.
+- **Estimated File Size Calculation:** Get an estimated file size and total password count before generation.
+- **Colorful, User-Friendly Interface:** Styled prompts and banners using ASCII art (`toilet`, `lolcat`, and `cowsay`).
+- **Error Handling:** Input validation to ensure correct entries for length and character sets.
 
-Linux/Unix Environment with Bash.
+---
+ 🛠️ **Requirements:**
 
-Install the following tools:
-crunch: Password generation utility. 
+- **Operating System:** Linux (tested on Kali Linux)
+- **Dependencies:** 
+  - `crunch` 
+  - `toilet` 
+  - `lolcat` 
+  - `cowsay`
+  
+  Install dependencies using:
+  ```bash
+  sudo apt-get install crunch toilet lolcat cowsay
+  ```
 
-Install with:
-sudo apt-get install crunch
-toilet (for ASCII art) and lolcat (for color effects).
+---
+📋 **Usage:**
 
-Install with:
-sudo apt-get install toilet
-gem install lolcat
-cowsay (optional, for fun exit messages):
-sudo apt-get install cowsay
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/password-generator.git
+   cd password-generator
+   ```
 
-How to Use
+2. Make the script executable:
+   ```bash
+   chmod +x password_generator.sh
+   ```
 
-Clone the repository:
-git clone https://github.com/mjlordyt/Password-Generator.git
-cd password_generating
+3. Run the script:
+   ```bash
+   sudo ./password_generator.sh
+   ```
 
-Make the script executable:
-chmod +x password_generator.sh
+---
+🧪 **Example Workflow:**
 
-Run the script:
-./password_generator.sh
+1. Enter minimum and maximum password lengths.
+2. Specify the character set (e.g., `abc123!@#`).
+3. Review the estimated file size and confirm to proceed.
+4. Specify the output filename.
+5. The password list is generated and saved in the current directory.
 
-📸 Colorful Banner:
-Showcases an engaging banner and ASCII art during execution.
+---
+ 🎨 **Special Thanks:**
+Created with passion by **Dharani**  
+🔗 Contact: dharanishankar1234@gmail.com
 
-📸 Interactive Input Prompts:
-Users can enter their desired length range and character set interactively.
+---
+⚠️ Disclaimer:** Use this tool responsibly for ethical and educational purposes only. Unauthorized use for malicious purposes is strictly prohibited.
 
-📸 Output Files:
-Save generated passwords directly into a text file.
+---
 
-Disclaimer
-This tool is designed for ethical purposes only. Use responsibly and in compliance with all applicable laws and guidelines.
-
-Contributions
-Feel free to fork this repository and submit pull requests for improvements or feature requests.
-
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
