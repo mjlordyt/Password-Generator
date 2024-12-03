@@ -12,26 +12,34 @@ Features
 ✅ Lightweight and efficient for generating large password lists.
 
 Prerequisites
+
 Linux/Unix Environment with Bash.
+
 Install the following tools:
 crunch: Password generation utility. 
+
 Install with:
 sudo apt-get install crunch
 toilet (for ASCII art) and lolcat (for color effects).
+
 Install with:
 sudo apt-get install toilet
 gem install lolcat
 cowsay (optional, for fun exit messages):
 sudo apt-get install cowsay
+
 How to Use
+
 Clone the repository:
 git clone https://github.com/mjlordyt/Password-Generator.git
 cd password_generating
+
 Make the script executable:
 chmod +x password_generator.sh
+
 Run the script:
 ./password_generator.sh
-Screenshots
+
 📸 Colorful Banner:
 Showcases an engaging banner and ASCII art during execution.
 
