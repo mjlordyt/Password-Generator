@@ -56,8 +56,8 @@ This Bash script allows users to generate customizable password lists using the 
 
 ---
  🎨 **Special Thanks:**
-Created with passion by **Dharani**  
-🔗 Contact: dharanishankar1234@gmail.com
+Created with passion by **MADHAN M**  
+🔗 Contact: madhan542111@gmail.com
 
 ---
 ⚠️ Disclaimer:** Use this tool responsibly for ethical and educational purposes only. Unauthorized use for malicious purposes is strictly prohibited.
